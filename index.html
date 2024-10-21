@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>byntangxyz MyID</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="src/output.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Heaader & Navbar -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 ">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4 ">
+                    <a href="#home" class="font-bold text-3xl block py-6 px-4">byntang<span class="text-blue-950">xyz</span></a>
+                </div>
+                <div class="flex items-center px-4 lg:px-1">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400" >Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="https://links.bxfundz.my.id" target="_blank" class="text-base text-black py-2 mx-8 flex group-hover:text-blue-400">Links</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End -->
+     
+    <!-- Hero Section -->
+    <section id="home" class="pt-36 pb-16 bg-light">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <!-- First Column -->
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold md:text-lg lg:text-xl">Hello World! I'm <span class="text-primary text-4xl block lg:text-6xl">byntang<span class="rgb">xyz</span></span></h1>
+                    <span id="slogan" class="rgb text-3xl font-bold lg:text-5xl"></span>
+                    <p class="font-medium text-slate-500 mb-10 md:text-lg lg:text-xl">I'm just an ordinary human, nothing special <a href="#about" class="text-blue-400">about me</a>!</p>
+                    <a href="#blog" class="text-base font-semibold text-white bg-blue-500 py-3 px-8 rounded-full hover:opacity-80 hover:shadow-lg transition duration-200 ease-in-out">View My Blog</a>
+                </div>
+                <!-- Second Column -->
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:right-0 lg:mt-9"> 
+                        <div>
+                        <img src="public/pfp.jpg" alt="photo-profile" width="280px" height="280px" class="max-w-full mx-auto rounded-lg relative bg-white shadow-2xl p-2 pb-6 lg:w-[400px]">
+                        <p class="text-center text-slate-500">-Bintang Maulana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+    <!-- Blog Section -->
+    <section class="pt-36 pb-42 bg-light" id="blog">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">Featured Article</h2>
+                    <p class="font-medium text-sm text-secondary md:text-lg">I'll share about my thoughts and experience about my project, programing tips, recomendation, tech news and some review here!</p>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <!-- First Column -->
+                <div class="w-full px-4 sm:w-1/2 lg:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-14 hover:bg-blue-100">
+                        <a href="https://blog.byntangxyz.my.id/rekomendasi-laptop/" class="hover:text-primary py-6">
+                            <img src="https://cdn.thewirecutter.com/wp-content/media/2024/07/laptopstopicpage-2048px-3685-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp" alt="artikel-1">
+                            <div class="py-8 px-6">
+                                <h3 class="block mb-3 font-semibold text-xl text-black hover:text-primary">Rekomendasi Laptop</h3>
+                                <p class="text-sm text-slate-500 hover:text-secondary">Laptop yang cocok untuk kamu sebagai programer dengan budget pelajar</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Second Column -->
+                <div class="w-full px-4 sm:w-1/2 lg:w-1/3">
+                
+                </div>
+                <!-- Third Column -->
+                <div class="w-full px-4 sm:w-1/2 lg:w-1/3">
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+    <!-- About Section -->
+    <section class="pt-36 pb-32 bg-light" id="about">
+        <div class="container mx-auto">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">About Me</h4>
+                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">Who am I?</h2>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <!-- First Column -->
+                <div class="w-full self-center px-6 py-8 lg:w-1/2 bg-primary text-white">
+                    <p class="text-base font-medium text-slate-300 text-justify mb-6"><span class="text-white text-lg block">My name is <span class="text-blue-500 text-lg font-semibold block lg:inline-block">Bintang Maulana Murtifandy,</span></span> a.k.a "Tang" or "Fund". Grade 10 student at <a href="https://smkn2depoksleman.sch.id/utama/" class="text-secondary">SMKN 2 Depok Sleman</a>. I'm interested in programing especially in web development. I'm also interested in photography, music, and blogging. Being a reliable person is my main priority.</p>
+                    <div class="w-full max-w-md ">
+                        <h2 class="text-lg font-semibold mb-4 ">Support me to buy Camera</h2>
+                        <div class="flex items-center">
+                            <img src="https://img.lazcdn.com/g/ff/kf/S9b950b43c5914e229a42b4e4dd83a8eca.jpg_720x720q80.jpg" width="50px" alt="Placeholder Image" class="mr-4 rounded-lg lg:w-[150px]">
+                            <div class="w-full">
+                                <div class="relative pt-1">
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-xs hidden font-semibold py-1 px-2 uppercase rounded-full text-teal-600 bg-teal-200 mb-4 lg:inline-block">
+                                            Progress to Rp3.000.000,00
+                                        </span>
+                                        <span class="text-xs font-semibold inline-block text-teal-600"></span>
+                                    </div>
+                                    <div class="flex h-2 mx-4 mb-8 bg-gray-200 rounded">
+                                        <div class="bg-teal-600 h-full rounded" style="width: 0%;"></div>
+                                    </div>
+                                    <a href="https://saweria.co/bxie" class="px-4 py-2 rounded-lg shadow-lg text-white bg-secondary">Contribute</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Column -->
+                <div class="w-full self-center px-12 py-8 bg-white lg:w-1/2">
+                    <h4 class="font-bold mx-auto my-2">My Programing Language</h4>
+                    <div class="flex mx-auto">
+                        <div class="grid grid-cols-3 gap-4 lg:grid-cols-5">
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png" alt="HTML Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1024px-CSS3_logo.svg.png" alt="CSS Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2000px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://www.qurtifa.my.id/assets/tailwind.png" alt="Tailwind CSS Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://www.qurtifa.my.id/assets/bootstraps.png" alt="Bootstrap Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://www.qurtifa.my.id/assets/react.png" alt="React Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/410px-Vitejs-logo.svg.png?20220412224743" alt="Vite.js Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="NodeJs Logo" class="h-16 w-16">
+                            </div>
+                            <div class="transform transition-transform duration-300 hover:scale-110">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/115px-Python-logo-notext.svg.png" alt="Python Logo" class="h-16 w-16">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container mt-4">
+                        <h4 class="font-bold mx-auto my-2">My Social Media</h4>
+                        <p>I'll be happy to connect with you on social media. Here are my social media:</p>
+
+                        <div class="sosmed text-6xl">
+                            <a href="https://www.tiktok.com/@byntangxyz_?_t=8ovCHgxv4bY&_r=1" target="_blank">
+                                <i class="ph ph-tiktok-logo"></i>
+                            </a>
+                            <a href="https://www.instagram.com/byntangxyz?igsh=MXk2NGp2MTlkMnAw" target="_blank">
+                                <i class="ph ph-instagram-logo"></i>
+                            </a>
+                            <a href="https://github.com/byntangxyz" target="_blank">
+                                <i class="ph ph-github-logo"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+    <!-- Certificate Section -->
+    <section class="pt-36 pb-32 bg-light" id="about">
+        <div class="container mx-auto">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">My Certificate</h4>
+                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">Nothing!</h2>
+
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+
+      <!-- Footer with Waves Animation -->
+    <footer class="relative h-32 md:h-40 overflow-hidden bg-light">
+        <!-- Waves -->
+        <div class="absolute inset-0 wave w-[200%] h-full opacity-50"></div>
+    
+        <!-- Footer Content -->
+        <div class="relative z-10 text-dark text-center py-4 px-2">
+            <a class="text-sm md:text-base">
+             &copy; 2024 byntangxyz. All rights not reserved.
+            </a>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
